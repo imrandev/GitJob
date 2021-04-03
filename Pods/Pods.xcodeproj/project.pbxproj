@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CE33B4763870811EBCC57A3CC7D15DD /* Pods-GitJob-GitJobUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A86D6188D057AE07D6326894439815D9 /* Pods-GitJob-GitJobUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CD2E734BC1E2C2711E0360FDC1488FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		571DBC89AA7857CFB6025409E87F4C73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5A20A6D9BB1F8347052A9DFD30711DD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5EC5137F261888AC0083B009 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC5137E261888AC0083B009 /* SkeletonView */; };
+		769CD7F290C81734405C21C10FD808B3 /* Pods-GitJob-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB04DE360AD13087BD83AE35DB1FCCF7 /* Pods-GitJob-dummy.m */; };
+		9308876D8B7C9261064A8C89D4A1A440 /* Pods-GitJobTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 664A14E48017150F3E42AF3A93B94D50 /* Pods-GitJobTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D553A2849E05B9FBB8A6261CEEE6C9B2 /* Pods-GitJob-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB1296FCF5F30324F58467ED75DBD25 /* Pods-GitJob-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0446488D113286B3C5F17AEB439788B /* Pods-GitJob-GitJobUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3606BE8F4F2350A66C0EBF48B623C970 /* Pods-GitJob-GitJobUITests-dummy.m */; };
+		F89A9EC6B73D5549ABAC6E18B5C5B3D8 /* Pods-GitJobTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D51B6C98842A12C86984A09F4FBB2C03 /* Pods-GitJobTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E876FAEC8984C643D0B387E4044FA5EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79EC3AAF7C63E9518BD3A0ABA10E3562;
+			remoteInfo = "Pods-GitJob";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086AB4D0F19953285B18357E2771211E /* Pods-GitJobTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GitJobTests.modulemap"; sourceTree = "<group>"; };
+		0DB1296FCF5F30324F58467ED75DBD25 /* Pods-GitJob-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GitJob-umbrella.h"; sourceTree = "<group>"; };
+		0F4496992BD4BBC6AC3CB3414136BE15 /* Pods_GitJob_GitJobUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitJob_GitJobUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB47151058DCD2005C3330937BEF474 /* Pods-GitJobTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitJobTests.release.xcconfig"; sourceTree = "<group>"; };
+		28E0958B63DBBAB918331D78D52CCF96 /* Pods-GitJob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitJob.debug.xcconfig"; sourceTree = "<group>"; };
+		2B18880487D3D839093D174DDFE9424A /* Pods-GitJobTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitJobTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FE4B71550D5C729D5E6ED1BB0FE3FD7 /* Pods-GitJob-GitJobUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitJob-GitJobUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3259A818AF16C5475FF4702C2D300D37 /* Pods-GitJob-GitJobUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitJob-GitJobUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3606BE8F4F2350A66C0EBF48B623C970 /* Pods-GitJob-GitJobUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GitJob-GitJobUITests-dummy.m"; sourceTree = "<group>"; };
+		44D26A2BAAADF86BF6F226763A6CB9B0 /* Pods-GitJob-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GitJob-acknowledgements.markdown"; sourceTree = "<group>"; };
+		590ACC238884A7C671D6D6ED3CBA9BCC /* Pods-GitJob-GitJobUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GitJob-GitJobUITests-Info.plist"; sourceTree = "<group>"; };
+		664A14E48017150F3E42AF3A93B94D50 /* Pods-GitJobTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GitJobTests-umbrella.h"; sourceTree = "<group>"; };
+		6F1CFC361549642AE13508AF460897DC /* Pods-GitJob-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GitJob-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		805BBFDD093F6CBF4BA81E4E3669B5C7 /* Pods-GitJob-GitJobUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GitJob-GitJobUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A86D6188D057AE07D6326894439815D9 /* Pods-GitJob-GitJobUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GitJob-GitJobUITests-umbrella.h"; sourceTree = "<group>"; };
+		AB04DE360AD13087BD83AE35DB1FCCF7 /* Pods-GitJob-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GitJob-dummy.m"; sourceTree = "<group>"; };
+		B15C783DB6DA067C58F33A9F27B80F5A /* Pods_GitJob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitJob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA74DDA8CB736E2D246DB360EA7D1FD /* Pods-GitJob-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GitJob-Info.plist"; sourceTree = "<group>"; };
+		BE4F89CF006A4A71448B8AC75B1A6B83 /* Pods-GitJob.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GitJob.modulemap"; sourceTree = "<group>"; };
+		CB1C18DACDD2502DC9D2A9FE65BAAEE8 /* Pods-GitJob-GitJobUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GitJob-GitJobUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D51B6C98842A12C86984A09F4FBB2C03 /* Pods-GitJobTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GitJobTests-dummy.m"; sourceTree = "<group>"; };
+		E33AA8BE2D4B3069BF9EC338EBDFF332 /* Pods-GitJobTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GitJobTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0E04B1ACF5AE80224989A41550A8412 /* Pods_GitJobTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitJobTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E401291F3DA4C947491BBF7D67F90D /* Pods-GitJob-GitJobUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GitJob-GitJobUITests.modulemap"; sourceTree = "<group>"; };
+		F6271C1211E67DABA629C56AD6589691 /* Pods-GitJobTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GitJobTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA02FD12C48C86886D7224B1A56E07FA /* Pods-GitJobTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GitJobTests-Info.plist"; sourceTree = "<group>"; };
+		FEEF74468C4EEB569D4AD566EBE57CED /* Pods-GitJob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitJob.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31C4E8CF5826CF7A0947F1D2491EE59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC5137F261888AC0083B009 /* SkeletonView in Frameworks */,
+				5A20A6D9BB1F8347052A9DFD30711DD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD5CC511EE0A7DC98AAB6CFEE5B8C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571DBC89AA7857CFB6025409E87F4C73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789D8E29EBEE89A66B3B6F5788BDC76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD2E734BC1E2C2711E0360FDC1488FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB415BF3CABC2D442B47B995C987824 /* Pods-GitJob-GitJobUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3E401291F3DA4C947491BBF7D67F90D /* Pods-GitJob-GitJobUITests.modulemap */,
+				CB1C18DACDD2502DC9D2A9FE65BAAEE8 /* Pods-GitJob-GitJobUITests-acknowledgements.markdown */,
+				805BBFDD093F6CBF4BA81E4E3669B5C7 /* Pods-GitJob-GitJobUITests-acknowledgements.plist */,
+				3606BE8F4F2350A66C0EBF48B623C970 /* Pods-GitJob-GitJobUITests-dummy.m */,
+				590ACC238884A7C671D6D6ED3CBA9BCC /* Pods-GitJob-GitJobUITests-Info.plist */,
+				A86D6188D057AE07D6326894439815D9 /* Pods-GitJob-GitJobUITests-umbrella.h */,
+				2FE4B71550D5C729D5E6ED1BB0FE3FD7 /* Pods-GitJob-GitJobUITests.debug.xcconfig */,
+				3259A818AF16C5475FF4702C2D300D37 /* Pods-GitJob-GitJobUITests.release.xcconfig */,
+			);
+			name = "Pods-GitJob-GitJobUITests";
+			path = "Target Support Files/Pods-GitJob-GitJobUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		67ABE15FDA9284E69971B2F44E1ED3EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B15C783DB6DA067C58F33A9F27B80F5A /* Pods_GitJob.framework */,
+				0F4496992BD4BBC6AC3CB3414136BE15 /* Pods_GitJob_GitJobUITests.framework */,
+				F0E04B1ACF5AE80224989A41550A8412 /* Pods_GitJobTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74BAEB7C2C8E54687323DE310ABE7836 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5E2E9FD47445D498A58CB412BDBDA52 /* Pods-GitJob */,
+				0AB415BF3CABC2D442B47B995C987824 /* Pods-GitJob-GitJobUITests */,
+				94535898680014FE34F4894D95C2BD08 /* Pods-GitJobTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		94535898680014FE34F4894D95C2BD08 /* Pods-GitJobTests */ = {
+			isa = PBXGroup;
+			children = (
+				086AB4D0F19953285B18357E2771211E /* Pods-GitJobTests.modulemap */,
+				F6271C1211E67DABA629C56AD6589691 /* Pods-GitJobTests-acknowledgements.markdown */,
+				E33AA8BE2D4B3069BF9EC338EBDFF332 /* Pods-GitJobTests-acknowledgements.plist */,
+				D51B6C98842A12C86984A09F4FBB2C03 /* Pods-GitJobTests-dummy.m */,
+				FA02FD12C48C86886D7224B1A56E07FA /* Pods-GitJobTests-Info.plist */,
+				664A14E48017150F3E42AF3A93B94D50 /* Pods-GitJobTests-umbrella.h */,
+				2B18880487D3D839093D174DDFE9424A /* Pods-GitJobTests.debug.xcconfig */,
+				1EB47151058DCD2005C3330937BEF474 /* Pods-GitJobTests.release.xcconfig */,
+			);
+			name = "Pods-GitJobTests";
+			path = "Target Support Files/Pods-GitJobTests";
+			sourceTree = "<group>";
+		};
+		B5E2E9FD47445D498A58CB412BDBDA52 /* Pods-GitJob */ = {
+			isa = PBXGroup;
+			children = (
+				BE4F89CF006A4A71448B8AC75B1A6B83 /* Pods-GitJob.modulemap */,
+				44D26A2BAAADF86BF6F226763A6CB9B0 /* Pods-GitJob-acknowledgements.markdown */,
+				6F1CFC361549642AE13508AF460897DC /* Pods-GitJob-acknowledgements.plist */,
+				AB04DE360AD13087BD83AE35DB1FCCF7 /* Pods-GitJob-dummy.m */,
+				BCA74DDA8CB736E2D246DB360EA7D1FD /* Pods-GitJob-Info.plist */,
+				0DB1296FCF5F30324F58467ED75DBD25 /* Pods-GitJob-umbrella.h */,
+				28E0958B63DBBAB918331D78D52CCF96 /* Pods-GitJob.debug.xcconfig */,
+				FEEF74468C4EEB569D4AD566EBE57CED /* Pods-GitJob.release.xcconfig */,
+			);
+			name = "Pods-GitJob";
+			path = "Target Support Files/Pods-GitJob";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				67ABE15FDA9284E69971B2F44E1ED3EF /* Products */,
+				74BAEB7C2C8E54687323DE310ABE7836 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0211654B567B919D584AB176ECEE76D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE33B4763870811EBCC57A3CC7D15DD /* Pods-GitJob-GitJobUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3925C96C70A99CC5F6ED58022A88F5D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9308876D8B7C9261064A8C89D4A1A440 /* Pods-GitJobTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8D3F41C275C6327647F51D4C8D5E46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D553A2849E05B9FBB8A6261CEEE6C9B2 /* Pods-GitJob-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3BDD86A5F84D799DB7A6C18986F4C05B /* Pods-GitJobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5BEE8AAA70903CF31757BC241B38D3 /* Build configuration list for PBXNativeTarget "Pods-GitJobTests" */;
+			buildPhases = (
+				3925C96C70A99CC5F6ED58022A88F5D6 /* Headers */,
+				884C1636119964B5939FFF55886136DA /* Sources */,
+				789D8E29EBEE89A66B3B6F5788BDC76E /* Frameworks */,
+				199BD5C310F78D2219662CACC999075F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C3C21D35DB2B462E1BED22719DA37F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-GitJobTests";
+			productName = "Pods-GitJobTests";
+			productReference = F0E04B1ACF5AE80224989A41550A8412 /* Pods_GitJobTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79EC3AAF7C63E9518BD3A0ABA10E3562 /* Pods-GitJob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE719026B7F168AE2D86E36BDDA99533 /* Build configuration list for PBXNativeTarget "Pods-GitJob" */;
+			buildPhases = (
+				AB8D3F41C275C6327647F51D4C8D5E46 /* Headers */,
+				4B97F750B1D35AA7A79E215B680BAC41 /* Sources */,
+				31C4E8CF5826CF7A0947F1D2491EE59D /* Frameworks */,
+				E4BB01B982AFAC483141E5A4E3EFE4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GitJob";
+			packageProductDependencies = (
+				5EC5137E261888AC0083B009 /* SkeletonView */,
+			);
+			productName = "Pods-GitJob";
+			productReference = B15C783DB6DA067C58F33A9F27B80F5A /* Pods_GitJob.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F7F46E6914625E1B582C4BABDC0C4A5 /* Pods-GitJob-GitJobUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA9AF0866516BDB7C91BD2094988C2E /* Build configuration list for PBXNativeTarget "Pods-GitJob-GitJobUITests" */;
+			buildPhases = (
+				0211654B567B919D584AB176ECEE76D9 /* Headers */,
+				76F95876DA5AB09B77FC74C2D1C64152 /* Sources */,
+				4FD5CC511EE0A7DC98AAB6CFEE5B8C42 /* Frameworks */,
+				918B54DC4EC72FEC5ECAD43FCD6232DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GitJob-GitJobUITests";
+			productName = "Pods-GitJob-GitJobUITests";
+			productReference = 0F4496992BD4BBC6AC3CB3414136BE15 /* Pods_GitJob_GitJobUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			packageReferences = (
+				5EC5137D261888AC0083B009 /* XCRemoteSwiftPackageReference "SkeletonView" */,
+			);
+			productRefGroup = 67ABE15FDA9284E69971B2F44E1ED3EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79EC3AAF7C63E9518BD3A0ABA10E3562 /* Pods-GitJob */,
+				7F7F46E6914625E1B582C4BABDC0C4A5 /* Pods-GitJob-GitJobUITests */,
+				3BDD86A5F84D799DB7A6C18986F4C05B /* Pods-GitJobTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199BD5C310F78D2219662CACC999075F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918B54DC4EC72FEC5ECAD43FCD6232DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BB01B982AFAC483141E5A4E3EFE4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B97F750B1D35AA7A79E215B680BAC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769CD7F290C81734405C21C10FD808B3 /* Pods-GitJob-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F95876DA5AB09B77FC74C2D1C64152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0446488D113286B3C5F17AEB439788B /* Pods-GitJob-GitJobUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884C1636119964B5939FFF55886136DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89A9EC6B73D5549ABAC6E18B5C5B3D8 /* Pods-GitJobTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C3C21D35DB2B462E1BED22719DA37F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GitJob";
+			target = 79EC3AAF7C63E9518BD3A0ABA10E3562 /* Pods-GitJob */;
+			targetProxy = E876FAEC8984C643D0B387E4044FA5EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08058CE0E0D6902D932D6AB7AE6F1BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB47151058DCD2005C3330937BEF474 /* Pods-GitJobTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GitJobTests/Pods-GitJobTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GitJobTests/Pods-GitJobTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25D17BD495788949AC6643A77C6E0CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E0958B63DBBAB918331D78D52CCF96 /* Pods-GitJob.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GitJob/Pods-GitJob-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GitJob/Pods-GitJob.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		341857EB4231376855A43988026EEDD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B18880487D3D839093D174DDFE9424A /* Pods-GitJobTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GitJobTests/Pods-GitJobTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GitJobTests/Pods-GitJobTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3822971FE05DDC5F2222AB85F0DB9970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEEF74468C4EEB569D4AD566EBE57CED /* Pods-GitJob.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GitJob/Pods-GitJob-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GitJob/Pods-GitJob.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		408DD4E9A8F34B386CFF91B1E69BAFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE4B71550D5C729D5E6ED1BB0FE3FD7 /* Pods-GitJob-GitJobUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GitJob-GitJobUITests/Pods-GitJob-GitJobUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GitJob-GitJobUITests/Pods-GitJob-GitJobUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F8C730B9EBD1CCBB31B3AFC27FC9D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3259A818AF16C5475FF4702C2D300D37 /* Pods-GitJob-GitJobUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GitJob-GitJobUITests/Pods-GitJob-GitJobUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GitJob-GitJobUITests/Pods-GitJob-GitJobUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E5BEE8AAA70903CF31757BC241B38D3 /* Build configuration list for PBXNativeTarget "Pods-GitJobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341857EB4231376855A43988026EEDD7 /* Debug */,
+				08058CE0E0D6902D932D6AB7AE6F1BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE719026B7F168AE2D86E36BDDA99533 /* Build configuration list for PBXNativeTarget "Pods-GitJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D17BD495788949AC6643A77C6E0CE8 /* Debug */,
+				3822971FE05DDC5F2222AB85F0DB9970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA9AF0866516BDB7C91BD2094988C2E /* Build configuration list for PBXNativeTarget "Pods-GitJob-GitJobUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408DD4E9A8F34B386CFF91B1E69BAFDC /* Debug */,
+				6F8C730B9EBD1CCBB31B3AFC27FC9D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5EC5137D261888AC0083B009 /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5EC5137E261888AC0083B009 /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC5137D261888AC0083B009 /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
