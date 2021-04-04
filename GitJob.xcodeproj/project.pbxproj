@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D5E05D12619955C0084C9E8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5E05D02619955C0084C9E8 /* DetailsViewController.swift */; };
+		1DF0DC0D2618CE7A002755AD /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0DC0C2618CE7A002755AD /* ApiProvider.swift */; };
+		1DF0DC132618DA86002755AD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0DC122618DA86002755AD /* Constant.swift */; };
 		5E299652260B006F00C577F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E299651260B006F00C577F3 /* AppDelegate.swift */; };
 		5E299654260B006F00C577F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E299653260B006F00C577F3 /* SceneDelegate.swift */; };
 		5E299656260B006F00C577F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E299655260B006F00C577F3 /* ViewController.swift */; };
@@ -18,7 +21,6 @@
 		5E602158260C4CF0006FD611 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5E602157260C4CF0006FD611 /* Alamofire */; };
 		5EC5137326183E990083B009 /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC5137226183E990083B009 /* JobTableViewCell.swift */; };
 		5EE098A6260C57EF00528235 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE098A5260C57EF00528235 /* Job.swift */; };
-		5EE098B1260C58ED00528235 /* Jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE098B0260C58ED00528235 /* Jobs.swift */; };
 		86245168222042CA4961BB43 /* Pods_GitJob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14570AF1B19618D14244A3DD /* Pods_GitJob.framework */; };
 		E0560AAA120025D6F68CCB5E /* Pods_GitJobTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E67A5D67A7F3DC97F5A120B /* Pods_GitJobTests.framework */; };
 		E8C2BFAC2AA4428D2E9A0F36 /* Pods_GitJob_GitJobUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE65147FA39C1E34AC551B32 /* Pods_GitJob_GitJobUITests.framework */; };
@@ -46,6 +48,9 @@
 		1130793CC7467487BFAD11A2 /* Pods-GitJobTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitJobTests.release.xcconfig"; path = "Target Support Files/Pods-GitJobTests/Pods-GitJobTests.release.xcconfig"; sourceTree = "<group>"; };
 		13070F959C1EFF9B154BDE23 /* Pods-GitJob-GitJobUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitJob-GitJobUITests.release.xcconfig"; path = "Target Support Files/Pods-GitJob-GitJobUITests/Pods-GitJob-GitJobUITests.release.xcconfig"; sourceTree = "<group>"; };
 		14570AF1B19618D14244A3DD /* Pods_GitJob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitJob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5E05D02619955C0084C9E8 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1DF0DC0C2618CE7A002755AD /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
+		1DF0DC122618DA86002755AD /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		2E67A5D67A7F3DC97F5A120B /* Pods_GitJobTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitJobTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5615E75C90C2C74769BF8585 /* Pods-GitJob-GitJobUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitJob-GitJobUITests.debug.xcconfig"; path = "Target Support Files/Pods-GitJob-GitJobUITests/Pods-GitJob-GitJobUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E29964E260B006F00C577F3 /* GitJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +69,6 @@
 		5E299675260B007200C577F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EC5137226183E990083B009 /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
 		5EE098A5260C57EF00528235 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
-		5EE098B0260C58ED00528235 /* Jobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jobs.swift; sourceTree = "<group>"; };
 		915118B19DBDA0967F8DE6C4 /* Pods-GitJobTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitJobTests.debug.xcconfig"; path = "Target Support Files/Pods-GitJobTests/Pods-GitJobTests.debug.xcconfig"; sourceTree = "<group>"; };
 		99977BD0958901A061518A39 /* Pods-GitJob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitJob.debug.xcconfig"; path = "Target Support Files/Pods-GitJob/Pods-GitJob.debug.xcconfig"; sourceTree = "<group>"; };
 		EE65147FA39C1E34AC551B32 /* Pods_GitJob_GitJobUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitJob_GitJobUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +116,28 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		1DF0DC112618DA6A002755AD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1DF0DC122618DA86002755AD /* Constant.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1DF0DC172618FB24002755AD /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		1DF0DC182618FB33002755AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		5E299645260B006F00C577F3 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +163,9 @@
 		5E299650260B006F00C577F3 /* GitJob */ = {
 			isa = PBXGroup;
 			children = (
+				1DF0DC182618FB33002755AD /* ViewModel */,
+				1DF0DC172618FB24002755AD /* Repository */,
+				1DF0DC112618DA6A002755AD /* Utils */,
 				5EE098A3260C579100528235 /* Network */,
 				5E299651260B006F00C577F3 /* AppDelegate.swift */,
 				5E299653260B006F00C577F3 /* SceneDelegate.swift */,
@@ -146,6 +175,7 @@
 				5E29965C260B007100C577F3 /* LaunchScreen.storyboard */,
 				5E29965F260B007100C577F3 /* Info.plist */,
 				5EC5137226183E990083B009 /* JobTableViewCell.swift */,
+				1D5E05D02619955C0084C9E8 /* DetailsViewController.swift */,
 			);
 			path = GitJob;
 			sourceTree = "<group>";
@@ -172,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				5EE098A4260C57B100528235 /* Model */,
+				1DF0DC0C2618CE7A002755AD /* ApiProvider.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -180,7 +211,6 @@
 			isa = PBXGroup;
 			children = (
 				5EE098A5260C57EF00528235 /* Job.swift */,
-				5EE098B0260C58ED00528235 /* Jobs.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -405,9 +435,11 @@
 			files = (
 				5E299656260B006F00C577F3 /* ViewController.swift in Sources */,
 				5E299652260B006F00C577F3 /* AppDelegate.swift in Sources */,
-				5EE098B1260C58ED00528235 /* Jobs.swift in Sources */,
+				1DF0DC132618DA86002755AD /* Constant.swift in Sources */,
+				1D5E05D12619955C0084C9E8 /* DetailsViewController.swift in Sources */,
 				5EC5137326183E990083B009 /* JobTableViewCell.swift in Sources */,
 				5E299654260B006F00C577F3 /* SceneDelegate.swift in Sources */,
+				1DF0DC0D2618CE7A002755AD /* ApiProvider.swift in Sources */,
 				5EE098A6260C57EF00528235 /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
