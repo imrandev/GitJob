@@ -11,34 +11,24 @@ class JobTableViewCell: UITableViewCell {
     
     public static let identifier = "jobcell"
     
+    private let viewModel = JobViewModel()
+    
     @IBOutlet var jobTitle : UILabel!
     @IBOutlet var company : UILabel!
     @IBOutlet var jobType : UILabel!
     @IBOutlet var companyLogo : UIImageView!
     
-    public func load(job : Job?){
-        updateUI(jobTitle: job?.title, imgUrl: job?.companyLogo, company: job?.company, jobType: job?.type)
-    }
-    
-    public func updateUI(jobTitle : String?, imgUrl: String?, company: String?, jobType: String?){
-        self.jobTitle.text = jobTitle
-        self.company.text = company
-        self.jobType.text = jobType
-        
-        // check if the url is null
-        // if null then set a default image data
-        // and return
-        guard let url = imgUrl else {
-            self.companyLogo.image = UIImage(named: "companyLogo")
-            return
-        }
-        
+    public func bind(job : Job){
+        // bind the views with data from viewModel
+        self.jobTitle.text = self.viewModel.getJobTitle(job: job)
+        self.company.text = self.viewModel.getCompany(job: job)
+        self.jobType.text = self.viewModel.getJobType(job: job)
         // download image data from valid url
         // and set the image data into ImageView
-        ApiProvider.getIntance().downloadCompanyLogo(imgUrl: url, completionHandler: loadCompanyLogo(image:))
+        self.viewModel.loadCompanyLogo(job: job, completionHandler: bindCompanyLogo(image:))
     }
     
-    private func loadCompanyLogo(image : UIImage){
+    private func bindCompanyLogo(image : UIImage){
         self.companyLogo.image = image
     }
 }

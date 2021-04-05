@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D5E05D12619955C0084C9E8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5E05D02619955C0084C9E8 /* DetailsViewController.swift */; };
+		1DB1CE1F261B1B69002CFF3F /* JobViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB1CE1E261B1B69002CFF3F /* JobViewModel.swift */; };
 		1DF0DC0D2618CE7A002755AD /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0DC0C2618CE7A002755AD /* ApiProvider.swift */; };
 		1DF0DC132618DA86002755AD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0DC122618DA86002755AD /* Constant.swift */; };
 		5E299652260B006F00C577F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E299651260B006F00C577F3 /* AppDelegate.swift */; };
@@ -49,6 +50,7 @@
 		13070F959C1EFF9B154BDE23 /* Pods-GitJob-GitJobUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitJob-GitJobUITests.release.xcconfig"; path = "Target Support Files/Pods-GitJob-GitJobUITests/Pods-GitJob-GitJobUITests.release.xcconfig"; sourceTree = "<group>"; };
 		14570AF1B19618D14244A3DD /* Pods_GitJob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitJob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5E05D02619955C0084C9E8 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1DB1CE1E261B1B69002CFF3F /* JobViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewModel.swift; sourceTree = "<group>"; };
 		1DF0DC0C2618CE7A002755AD /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
 		1DF0DC122618DA86002755AD /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		2E67A5D67A7F3DC97F5A120B /* Pods_GitJobTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitJobTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +118,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		1DB1CE23261B2AD2002CFF3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E299655260B006F00C577F3 /* ViewController.swift */,
+				1D5E05D02619955C0084C9E8 /* DetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		1DF0DC112618DA6A002755AD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,16 +135,10 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		1DF0DC172618FB24002755AD /* Repository */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repository;
-			sourceTree = "<group>";
-		};
 		1DF0DC182618FB33002755AD /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1DB1CE1E261B1B69002CFF3F /* JobViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -163,19 +168,17 @@
 		5E299650260B006F00C577F3 /* GitJob */ = {
 			isa = PBXGroup;
 			children = (
+				1DB1CE23261B2AD2002CFF3F /* Controller */,
 				1DF0DC182618FB33002755AD /* ViewModel */,
-				1DF0DC172618FB24002755AD /* Repository */,
 				1DF0DC112618DA6A002755AD /* Utils */,
 				5EE098A3260C579100528235 /* Network */,
 				5E299651260B006F00C577F3 /* AppDelegate.swift */,
 				5E299653260B006F00C577F3 /* SceneDelegate.swift */,
-				5E299655260B006F00C577F3 /* ViewController.swift */,
 				5E299657260B006F00C577F3 /* Main.storyboard */,
 				5E29965A260B007100C577F3 /* Assets.xcassets */,
 				5E29965C260B007100C577F3 /* LaunchScreen.storyboard */,
 				5E29965F260B007100C577F3 /* Info.plist */,
 				5EC5137226183E990083B009 /* JobTableViewCell.swift */,
-				1D5E05D02619955C0084C9E8 /* DetailsViewController.swift */,
 			);
 			path = GitJob;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 			files = (
 				5E299656260B006F00C577F3 /* ViewController.swift in Sources */,
 				5E299652260B006F00C577F3 /* AppDelegate.swift in Sources */,
+				1DB1CE1F261B1B69002CFF3F /* JobViewModel.swift in Sources */,
 				1DF0DC132618DA86002755AD /* Constant.swift in Sources */,
 				1D5E05D12619955C0084C9E8 /* DetailsViewController.swift in Sources */,
 				5EC5137326183E990083B009 /* JobTableViewCell.swift in Sources */,

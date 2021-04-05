@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     
     private var isLoading : Bool = false
     
+    private let viewModel = JobViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -26,12 +28,13 @@ class ViewController: UIViewController {
     }
     
     private func onViewSetup() {
-        tableView.delegate = self
-        tableView.dataSource = self
-        ApiProvider.getIntance().fetchJobPositions(completionHandler: onFetched(_:))
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        self.viewModel.loadJobPositions(completionHandler: onJobPositionComplete(_:))
     }
     
-    func onFetched(_ jobs: [Job]){
+    // This a callback function for Job Postions API
+    func onJobPositionComplete(_ jobs: [Job]){
         self.jobs = jobs;
         self.tableView.stopSkeletonAnimation()
         self.view.hideSkeleton()
@@ -49,12 +52,12 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        tableView.isSkeletonable = true
-        tableView.showSkeleton(usingColor: .blue, transition: .crossDissolve(0.25))
+        self.tableView.isSkeletonable = true
+        self.tableView.showSkeleton(usingColor: .blue, transition: .crossDissolve(0.25))
     }
     
     override func viewDidLayoutSubviews() {
-        tableView.visibleCells.forEach { (tableViewCell) in
+        self.tableView.visibleCells.forEach { (tableViewCell) in
             tableViewCell.showSkeleton()
         }
     }
@@ -74,7 +77,7 @@ extension ViewController : SkeletonTableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: JobTableViewCell.identifier, for: indexPath) as! JobTableViewCell
-        cell.load(job: self.jobs[indexPath.row])
+        cell.bind(job: self.jobs[indexPath.row])
         return cell
     }
     
